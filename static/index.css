@@ -1,0 +1,42 @@
+html {
+    overflow: hidden;
+}
+body {
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+#main {
+    position: fixed;
+    top: 200px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#result {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended-songs{
+    margin-top: 20px;
+    display: flex;
+}
+
+.recommended-song{
+    flex-grow: 1;
+
+}
